@@ -1,5 +1,4 @@
 import { Flex, Image } from "@mantine/core";
-import ImageDefaults from "../ImageDefaults";
 import { ArrowRight  } from "lucide-react";
 
 export default function About() {

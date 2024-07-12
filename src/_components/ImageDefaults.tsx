@@ -1,5 +1,5 @@
 import { Image } from '@mantine/core'
-export default function ImageDefaults({hit, sorc}) {
+export default function ImageDefaults({ hit, sorc }: { hit?: number; sorc?: string }) {
     
 
 return(

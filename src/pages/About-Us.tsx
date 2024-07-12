@@ -1,5 +1,5 @@
 import AbtHeader from "../_components/About/AbtHeader";
-import MinHeader from "../_components/About/MinHead";
+// import MinHeader from "../_components/About/MinHead";
 import ImageDefaults from "../_components/ImageDefaults";
 
 export default function AboutUs() {

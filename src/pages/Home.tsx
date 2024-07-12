@@ -1,10 +1,10 @@
 import BigHeader from "../_components/About/BigHeader";
 import CourseImages from "../_components/CourseImages";
-import ImageDefaults from "../_components/ImageDefaults";
+// import ImageDefaults from "../_components/ImageDefaults";
 import { Image } from '@mantine/core'
 import About from "../_components/About/About";
 import { Flex } from "@mantine/core";
-import { ArrowRight, CircleCheck, CodeXml } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 // import CourseItems from "../_components/courses/CourseItem";
 
 const Home = () => {

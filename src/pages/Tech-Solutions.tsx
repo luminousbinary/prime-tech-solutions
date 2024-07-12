@@ -1,5 +1,5 @@
 import CourseImages from "../_components/CourseImages";
-import CourseHeader from "../_components/courses/CourseHeader";
+// import CourseHeader from "../_components/courses/CourseHeader";
 
 
 export default function TechSolutions() {

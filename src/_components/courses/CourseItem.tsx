@@ -1,4 +1,4 @@
-import { Box, Flex, Image } from "@mantine/core";
+import { Box, Flex } from "@mantine/core";
 // import { CodeXml } from "lucide-react";
 // import React from "react";
 import CourseImages from "../CourseImages.tsx";

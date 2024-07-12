@@ -1,8 +1,8 @@
-import React from 'react'
+// import React from 'react'
 import { Image } from '@mantine/core'
 import { CodeXml } from 'lucide-react'
 
-const CourseImages = ({nom}) => {
+const CourseImages = ({ nom }: { nom?: string }) => {
 
 
   return (
