@@ -247,6 +247,7 @@ p {
 /* tech sol */
 
 .tsolm {
+  background: #dadada;
   display: flex;
   justify-content: center;
   align-items: center;
