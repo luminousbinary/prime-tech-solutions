@@ -1,0 +1,43 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+import './App.css'
+// Import styles of packages that you've installed.
+// All packages except `@mantine/hooks` require styles imports
+import '@mantine/core/styles.css';
+
+import { MantineProvider } from '@mantine/core';
+
+
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Courses from "./pages/Courses";
+import AboutUs from "./pages/About-Us";
+import TechSolutions from './pages/Tech-Solutions'
+// import NoPage from "./pages/NoPage";
+
+
+export default function App() {
+  // const [count, setCount] = useState(0)
+  return (<MantineProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/tech-solutions" element={<TechSolutions />} />
+          {/* <Route path="*" element={<NoPage />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  </MantineProvider>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />)
