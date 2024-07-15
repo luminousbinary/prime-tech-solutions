@@ -45,7 +45,7 @@ export default function About() {
             </div>
           </div>
  <Flex className="gap-2 items-center">
- <button className=" flex hover:bg-[#4335d8] items-center justify-center gap-3 rounded-[2rem] bg-[#100866] text-white py-4 px-5 shadow-md font-bold text-xl">Learn about our services <span><ArrowRight/></span></button>
+ <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-lg">Learn about our services <span><ArrowRight/></span></button>
           </Flex>
         </div>
        

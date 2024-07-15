@@ -21,7 +21,7 @@ const Home = () => {
               today.
             </p>
             <Flex className="gap-2 items-center justify-center">
-              <button className=" hover:bg-[#4335d8] rounded-[2rem] flex items-center  bg-[#100866] gap-2 text-white py-3 px-2 shadow-md font-semibold text-base">Start a class now <span>
+              <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-lg">Start a class now <span>
                 <ArrowRight size={16} />
               </span></button>
             </Flex>
@@ -52,7 +52,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="pt-row flex gap-12 py-8">
+        <div className="pt-row p-20 md:p-12 lg:flex-nowrap md:flex-wrap flex gap-8 md:gap-20 ">
           <CourseImages nom={"true"} />
           <CourseImages nom={"true"} />
           <CourseImages  nom={"true"}/>
@@ -122,7 +122,7 @@ const Home = () => {
             </div>
           </div>
           <Flex className="gap-2 items-center">
-            <button className=" flex hover:bg-[#4335d8] items-center justify-center gap-3 rounded-[2rem] bg-[#100866] text-white py-4 px-5 shadow-md font-bold text-xl">Learn more about our programs <span><ArrowRight/></span></button>
+            <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-lg">Learn more about our programs <span><ArrowRight/></span></button>
           </Flex>
 
         </div>

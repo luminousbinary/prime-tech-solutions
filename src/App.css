@@ -19,16 +19,21 @@ main {
 
 
 nav {
-  background: #2011cc;
+  background: #100866
+  ;
+  color: #dadada;
+  font-weight: 500;
 }
 
 nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
   height: 80px;
   gap: 20px;
+  justify-content: space-evenly;
+  
 }
 
 h1 {

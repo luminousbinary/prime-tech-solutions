@@ -14,7 +14,7 @@ export default function TechSolutions() {
                         Explore our comprehensive range of solutions, meticulously designed to address every challenge you encounter.
                         Our services cater to companies, schools, homes, and private individuals, ensuring tailored support for all your needs
                     </span>
-                </div>            <div className="p-20 flex gap-8 tsolu">
+                </div>            <div className=" p-20 md:p-12 lg:flex-nowrap md:flex-wrap flex gap-8 md:gap-20  justify-center">
 
                     <CourseImages nom="true" />
                     <CourseImages nom="true" />
