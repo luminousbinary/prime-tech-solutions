@@ -8,10 +8,10 @@ export default function About() {
 
     <section id="about ">
       <div className="pt-container lg:h-screen">
-        <div className="pt-row px-28 flex flex-col gap-4  ">
+        <div className="pt-row px-6 text-center md:px-28 flex flex-col gap-4  ">
 
-          <div className="pt-col-md-12 tcrs leading-loose">
-            <div className=" h-[50%]">
+          <div className="pt-col-md-12 tcrs flex-col-reverse md:flex-row leading-loose">
+            <div className="h-2/5 md:h-[50%]">
               <Image
                 styles={{
                   root: {
@@ -28,10 +28,10 @@ export default function About() {
             </div>
             <div className="">
               <div className="pt-section-title ">
-              <h1 className="text-3xl text-[#0000ff] font-bold capitalize w-full">
+              <h1 className="md:text-3xl text-md text-[#0000ff] font-bold capitalize w-full">
      About us        </h1>
                               </div>
-              <div className="pt-section-text">
+              <div className="pt-section-text text-center text-xs">
                 Welcome to Prime Netbridge Solutions! We are dedicated to
                 empowering individuals of all ages with cutting-edge technology
                 education. Our mission is to foster innovation and creativity
@@ -45,7 +45,7 @@ export default function About() {
             </div>
           </div>
  <Flex className="gap-2 items-center">
- <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-lg">Learn about our services <span><ArrowRight/></span></button>
+ <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-xs md:text-lg">Learn about our services <span><ArrowRight/></span></button>
           </Flex>
         </div>
        

@@ -4,9 +4,9 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav className="justify-space-evenly flex w-full items-center px-24" >
-        <div className="logo">
-          <Image src={"/images/Frame 6.svg"} h={40}/>
+      <nav className="md:justify-space-evenly justify-center gap-2 px-4 flex w-full text-[10px]  items-center md:px-24" >
+        <div className="logo w-8">
+          <Image src={"/images/Frame 6.svg"} h={"100%"}/>
         </div>
         <ul>
           <li>

@@ -3,10 +3,10 @@ const BigHeader
   = () => {
     return (
       <div className="w-full flex flex-col justify-center items-center space-y-4">
-        <h1 className="text-3xl text-[#0000ff] font-bold capitalize text-center w-full">
+        <h1 className="md:text-3xl text-[16px] px-2 text-[#0000ff] font-bold capitalize text-center w-full">
           Beginner and professional tech courses
         </h1>
-        <span className="text-center w-[80%]  text-lg">
+        <span className="text-center w-[80%] text-[10px] md:text-lg">
           Prime Netbridge offers both online and onsite tutoring services,
           providing a wide range of professional courses for the following
           career paths ; Video editors, Graphics designers, Full stack

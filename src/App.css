@@ -22,7 +22,7 @@ nav {
   background: #100866
   ;
   color: #dadada;
-  font-weight: 500;
+  font-weight: 500; 
 }
 
 nav ul {
@@ -30,7 +30,7 @@ nav ul {
   align-items: center;
   justify-content: center;
   width: 80%;
-  height: 80px;
+  height: 70px;
   gap: 20px;
   justify-content: space-evenly;
   
@@ -132,7 +132,7 @@ p {
 
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 70vh;
 
   background: url("/images/hero\ image.png");
   box-shadow: inset 0 0 0 2000px rgba(19, 19, 19, 0.3);
@@ -168,7 +168,6 @@ p {
 
 .tcrs-container {
   display: flex;
-  flex-direction: column;
   gap: 20px
 }
 

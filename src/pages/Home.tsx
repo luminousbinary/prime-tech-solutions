@@ -14,14 +14,15 @@ const Home = () => {
       <div className="pt-container">
         <div className="pt-row">
           <div className="pt-col-lg-12 pt-hero">
-            <h1 className="text-6xl text-white font-bold">Prime tech solutions</h1>
-            <p className="text-xl text-white w-2/4">
+            <h1 className="md:text-6xl text-lg text-white font-bold">Prime tech solutions</h1>
+            <p className="md:text-xl text-sm text-white w-2/4">
               Ignite Your Tech Journey. From coding to networking, explore
               engaging programs for all ages and unlock your full potential
               today.
             </p>
             <Flex className="gap-2 items-center justify-center">
-              <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-lg">Start a class now <span>
+              <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-base md:text-lg">
+                Start a class now <span>
                 <ArrowRight size={16} />
               </span></button>
             </Flex>
@@ -52,9 +53,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="pt-row p-20 md:p-12 lg:flex-nowrap md:flex-wrap flex gap-8 md:gap-20 ">
+        <div className="pt-row p-20 md:p-12 lg:flex-nowrap md:flex-wrap flex-wrap flex gap-8 md:gap-20 ">
           <CourseImages nom={"true"} />
-          <CourseImages nom={"true"} />
+          <CourseImages  icn={"./icons/Frame (7).svg"} nom={"true"} />
           <CourseImages  nom={"true"}/>
 
         </div>
@@ -68,8 +69,8 @@ const Home = () => {
         <div className="pt-row">
           <BigHeader />
         </div>
-        <div className="pt-row pt-section-body tcrs-container">
-          <div className="pt-col-md-12 tcrs" >
+        <div className="pt-row pt-section-body flex-col px-6 tcrs-container">
+          <div className="pt-col-md-12 flex gap-14 pt-[20px] md:items-center md:flex-row flex-col" >
             <div>
               <Image
                 styles={{
@@ -78,25 +79,25 @@ const Home = () => {
                     borderTopRightRadius: "0.5rem",
                   },
                 }}
-                className="rounded-lg imgDflt"
+                className="rounded-lg md:h-[280px] imgDflt"
                 src={"/images/hero image.png"}
-                h={330}
+                // h={330}
                 alt="courseLogo"
                 fit="cover"
               />
             </div>
             <div className="pt-col-md-6 ">
-              <ul className="text-2xl lg:leading-[3.5rem]">
+              <ul className="md:text-2xl items-start text-sm lg:leading-[3.5rem]">
                 <li>
 
-                  <p className="flex items-center gap-5 text-">                     <span><img className="w-8" src="/icons/Frame 75.svg" alt="icon" /></span>
+                  <p className="flex md:text-base lg:text-2xl text-sm gap-4 md:gap-5 ">                     <span><img className="w-8" src="/icons/Frame 75.svg" alt="icon" /></span>
 
                     Remote and onsite<span><img src="/icons/Frame (1).svg" alt="icon" /></span>
                   </p>
                 </li>
                 <li>
 
-                  <p className="flex items-center gap-5">
+                  <p className="flex md:text-base lg:text-2xl text-sm gap-4 md:gap-5">
                     <span><img className="w-8" src="/icons/Frame 75.svg" alt="icon" /></span>
                     Kids & Beginners courses<span
                     ><img src="/icons/Frame (2).svg" alt="icon"
@@ -105,14 +106,14 @@ const Home = () => {
                 </li>
                 <li>
 
-                  <p className="flex items-center gap-5">
+                  <p className="flex md:text-base lg:text-2xl text-sm gap-4 md:gap-5">
                     <span><img className="w-8" src="/icons/Frame 75.svg" alt="icon" /></span>
                     Professional courses<span><img src="/icons/Frame (3).svg" alt="icon" /></span>
                   </p>
                 </li>
                 <li>
 
-                  <p className="flex items-center gap-5">
+                  <p className="flex md:text-base lg:text-2xl text-sm gap-4 md:gap-5">
                     <span><img className="w-8" src="/icons/Frame 75.svg" alt="icon" /></span>
                     Recognized certificates
                     <span><img src="/icons/Frame (4).svg" alt="icon" /></span>
@@ -121,8 +122,9 @@ const Home = () => {
               </ul>
             </div>
           </div>
-          <Flex className="gap-2 items-center">
-            <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-lg">Learn more about our programs <span><ArrowRight/></span></button>
+          <Flex className="gap-2 items-center justify-center">
+          <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-base md:text-lg">
+              Learn more about our programs <span><ArrowRight/></span></button>
           </Flex>
 
         </div>

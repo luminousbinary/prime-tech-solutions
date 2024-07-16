@@ -27,9 +27,12 @@ const CourseImages = ({ nom, imggs, icn, texts }: { nom?: string, imggs?: string
           fit="cover"
         />
         <div className="w-full bg-black grow rounded-tr-3xl  py-2 space-y-4 content-center">
-          <div className="p-3 bg-slate-50 w-[40px] h-[40px] rounded-[50%] grid place-content-center mx-auto">
-            {icn ? <img src={icn} alt={"icon"} /> : <CodeXml size={26} />}
-          </div>
+          {icn ?   <div className="p-3  w-[54px] h-[54px] rounded-[50%] grid place-content-center mx-auto">
+          <Image className='fill-black text-black' h={25} w={25} src={icn} alt={"icon"} /> 
+          </div> : 
+          <div className="p-3 bg-slate-50 w-[35px] h-[35px] rounded-[50%] grid place-content-center mx-auto">
+            <CodeXml size={26} />
+          </div>}
           <h1 className="text-white font-bold whitespace-nowrap capitalize text-center">
             fullstack development
           </h1>
