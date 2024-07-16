@@ -12,11 +12,13 @@ export default function TechSolutions() {
                     </h1>
                     <span className="text-center md:w-[80%]  md:text-lg  text-xs w-[100%]">
                         Explore our comprehensive range of solutions, meticulously designed to address every challenge you encounter.
-                        Our services cater to companies, schools, homes, and private individuals, ensuring tailored support for all your needs
+                        Our services cater to companies, scho
+                        ols, homes, and private individuals, ensuring tailored support for all your needs
                     </span>
-                </div>            <div className=" p-20 md:p-12 lg:flex-nowrap md:flex-wrap flex gap-8 md:gap-20  justify-center">
+                </div>          
+                <div className="pt-row p-20 md:p-12 lg:flex-nowrap md:flex-wrap flex-wrap flex gap-8 md:gap-20 ">
 
-                    <CourseImages nom="true" />
+   <CourseImages nom="true" />
                     <CourseImages nom="true" />
                     <CourseImages nom="true" />
                 </div>
