@@ -11,8 +11,8 @@ const CourseImages = ({ nom, imggs, icn, texts }: { nom?: string, imggs?: string
 
 
   return (
-    <div className="md:w-[40%] lg:w-[260px]">
-      <div className="lg:w-[260px]   h-[350px] border border-purple-500 rounded-lg flex flex-col shadow-sm min-w-[260px]">
+    <div className="md:max-w-[40%] lg:max-w-[260px]">
+      <div className="lg:w-[260px]   max-h-[350px] border border-purple-500 rounded-lg flex flex-col shadow-sm min-w-[260px]">
         <Image
           styles={{
             root: {

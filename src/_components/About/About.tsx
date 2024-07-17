@@ -1,6 +1,6 @@
 import { Flex, Image } from "@mantine/core";
-import { ArrowRight  } from "lucide-react";
-
+import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 export default function About() {
 
 
@@ -28,10 +28,10 @@ export default function About() {
             </div>
             <div className="">
               <div className="pt-section-title ">
-              <h1 className="md:text-3xl text-md text-[#0000ff] font-bold capitalize w-full">
-     About us        </h1>
-                              </div>
-              <div className="pt-section-text text-center text-xs">
+                <h1 className="md:text-3xl md:text-start text-md text-[#0000ff] font-bold capitalize w-full">
+                  About us        </h1>
+              </div>
+              <div className="pt-section-text md:text-start text-center lg:text-lg text-xs">
                 Welcome to Prime Netbridge Solutions! We are dedicated to
                 empowering individuals of all ages with cutting-edge technology
                 education. Our mission is to foster innovation and creativity
@@ -44,11 +44,12 @@ export default function About() {
               </div>
             </div>
           </div>
- <Flex className="gap-2 items-center">
- <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-xs md:text-lg">Learn about our services <span><ArrowRight/></span></button>
-          </Flex>
+          <Flex className="gap-2 items-center">
+            <Link to={"/about"}><button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-xs md:text-lg">Learn about our services <span><ArrowRight /></span></button>
+         
+            </Link>  </Flex>
         </div>
-       
+
       </div>
     </section>
   )

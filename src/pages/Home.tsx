@@ -5,6 +5,7 @@ import { Image } from '@mantine/core'
 import About from "../_components/About/About";
 import { Flex } from "@mantine/core";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 // import CourseItems from "../_components/courses/CourseItem";
 
 const Home = () => {
@@ -21,10 +22,13 @@ const Home = () => {
               today.
             </p>
             <Flex className="gap-2 items-center justify-center">
+              <Link to="/courses">
               <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-base md:text-lg">
                 Start a class now <span>
                 <ArrowRight size={16} />
               </span></button>
+              </Link>
+              
             </Flex>
           </div>
         </div>
@@ -90,7 +94,8 @@ const Home = () => {
               <ul className="md:text-2xl items-start text-sm lg:leading-[3.5rem]">
                 <li>
 
-                  <p className="flex md:text-base lg:text-2xl text-sm gap-4 md:gap-5 ">                     <span><img className="w-8" src="/icons/Frame 75.svg" alt="icon" /></span>
+                  <p className="flex md:text-base lg:text-2xl text-sm gap-4 md:gap-5 ">
+                                         <span><img className="w-8" src="/icons/Frame 75.svg" alt="icon" /></span>
 
                     Remote and onsite<span><img src="/icons/Frame (1).svg" alt="icon" /></span>
                   </p>
@@ -123,9 +128,12 @@ const Home = () => {
             </div>
           </div>
           <Flex className="gap-2 items-center justify-center">
+          <Link to={"/courses"}>
           <button className=" hover:bg-[#2011cc] flex items-center gap-2 bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold text-base md:text-lg">
               Learn more about our programs <span><ArrowRight/></span></button>
-          </Flex>
+      
+          </Link>
+              </Flex>
 
         </div>
       </div>
