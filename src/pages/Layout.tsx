@@ -1,6 +1,6 @@
 import { Image } from "@mantine/core";
 import { Outlet, Link } from "react-router-dom";
-import { Text, Container, ActionIcon, Group, rem } from '@mantine/core';
+// import { Text, Container, ActionIcon, Group, rem } from '@mantine/core';
 // import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/icons-react';
 // import { MantineLogo } from '@mantinex/mantine-logo';
 // import classes from '../App.css';
