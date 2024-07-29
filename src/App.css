@@ -748,10 +748,10 @@ body {
 }
 
 .course-outline, .course-description {
-  max-width: 45%;
+  max-width: 40%;
   @media (max-width: 420px) {
 
-    max-width: 85%;
+    max-width: 84%;
   }
 }
 
