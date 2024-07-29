@@ -11,7 +11,7 @@ const CourseDescription = () => {
       experiences from concept to completion.
     </h1>
     <Flex className="gap-6 items-center">
-       <a href={"/courses/5"}> <button className="bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold md:text-base lg:text-lg">Enroll now</button>
+       <a href={"/course"}> <button className="bg-gradient-to-r from-[#100866] to-[#2011CC] rounded-[2rem] bg-[#100866] text-white py-2 px-6 shadow-md font-semibold md:text-base lg:text-lg">Enroll now</button>
        
        </a> <span className="font-bold text-black md:text-lg lg:text-2xl">$150.00</span>
     </Flex>

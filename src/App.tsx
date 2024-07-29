@@ -18,8 +18,8 @@ import Home from "./pages/Home";
 import Courses from "./pages/Courses/index";
 import AboutUs from "./pages/About-Us";
 import TechSolutions from './pages/Tech-Solutions'
-import CourseId from './pages/Courses/[courseId]';
-// import NoPage from "./pages/NoPage";
+import CourseId from './pages/Courses/courseId';
+import NoPage from "./pages/NoPage";
 
 
 export default function App() {
@@ -30,10 +30,10 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/courses" element={<Courses />} />
-          <Route path="/courses/:courseId" element={<CourseId />} />
+          <Route path="/course" element={<CourseId />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/tech-solutions" element={<TechSolutions />} />
-          {/* <Route path="*" element={<NoPage />} /> */}
+          <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
