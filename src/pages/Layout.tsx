@@ -63,9 +63,9 @@ const Layout = () => {
     <>
       <nav className="md:justify-space-evenly justify-center gap-2 px-4 flex w-full text-[10px] md:text-xl  items-center md:px-24" >
         <Link to={'/'}>
-        <div className="logo md:w-16 w-8">
-          <Image src={"/images/Frame 6.svg"} h={"100%"} />
-        </div>
+          <div className="logo md:w-16 w-8">
+            <Image src={"/images/Frame 6.svg"} h={"100%"} />
+          </div>
         </Link>
         <ul>
           <li>
