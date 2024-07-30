@@ -131,7 +131,7 @@ p {
 
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  height: 100vh;
 
   background: url("/images/hero\ image.png");
   box-shadow: inset 0 0 0 2000px rgba(19, 19, 19, 0.3);
@@ -139,9 +139,12 @@ p {
 
   @media (max-width:660px) {
     background-position-x: center;
+    height: 70vh;
+
 
   }
 }
+
 
 
 .pt-row {
