@@ -7,7 +7,7 @@ import { Image } from '@mantine/core'
 import { CodeXml } from 'lucide-react'
 
 
-const CourseImages = ({ nom, imggs, icn, texts }: { nom?: string, imggs?: string, icn?: string, texts?: string }) => {
+const CourseImages = ({ nom, imggs, icn, texts, tcard}: { nom?: string, imggs?: string, icn?: string, texts?: string, tcard?:string }) => {
 
 
   return (
@@ -34,7 +34,7 @@ const CourseImages = ({ nom, imggs, icn, texts }: { nom?: string, imggs?: string
             <CodeXml size={26} />
           </div>}
           <h1 className="text-white font-bold whitespace-nowrap capitalize text-center">
-            fullstack development
+          {tcard?  tcard :  "fullstack development"}
           </h1>
 
           {texts ? <h6 className="text-sm font-light text-white text-center leading-4"> {texts}     </h6> :

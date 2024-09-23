@@ -15,8 +15,8 @@ const Home = () => {
       <div className="pt-container">
         <div className="pt-row">
           <div className="pt-col-lg-12 pt-hero">
-            <h1 className="md:text-6xl text-lg text-white font-bold">Prime tech solutions</h1>
-            <p className="md:text-xl text-sm text-white w-2/4">
+            <h1 className="md:text-6xl text-[32px] text-white font-bold">Prime tech solutions</h1>
+            <p className="md:text-xl text-[16px] text-white w-2/4">
               Ignite Your Tech Journey. From coding to networking, explore
               engaging programs for all ages and unlock your full potential
               today.
@@ -42,14 +42,14 @@ const Home = () => {
         <div className="pt-row pt-section-header">
           <div className="pt-col-md-12 pt-12">
             <div className="pt-section-title">
-              <h2 className="text-3xl text-[#0000FF] font-bold">Tech Solutions</h2>
+              <h2 className="text-3xl py-4 text-[#0000FF]  font-bold">Tech Solutions</h2>
             </div>
-            <div className="pt-section-text pt-sub-title">
-              <p>
+            <div className="pt-section-text md:text-lg text-sm  pt-sub-title">
+              <p className="s ">
                 Explore our comprehensive range of solutions, meticulously
                 designed to address every challenge you encounter.
               </p>
-              <p>
+              <p className="s" >
                 Our services cater to companies, schools, homes, and private
                 individuals, ensuring tailored support for all your needs
               </p>
@@ -58,9 +58,9 @@ const Home = () => {
         </div>
 
         <div className="pt-row p-20 md:p-12 lg:flex-nowrap md:flex-wrap flex-wrap flex gap-8 md:gap-20 ">
-          <CourseImages nom={"true"} />
-          <CourseImages  icn={"./icons/Frame (7).svg"} nom={"true"} />
-          <CourseImages  nom={"true"}/>
+          <CourseImages  nom={"true"} />
+          <CourseImages  icn={"./icons/Frame (5).svg"} tcard={"Game Development"} texts={"The best experience elarning from expaerts from diverse location."} nom={"true"} />
+          <CourseImages  icn={"./icons/Frame (8).svg"} tcard={"Data Analysis"} texts={"Learn to traverse data in unique and graphycal ways, by experst with years of experience in the industry."} nom={"true"}/>
 
         </div>
       </div>

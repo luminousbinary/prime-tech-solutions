@@ -43,6 +43,9 @@ p {
   font-size: 20px;
 }
 
+.s {
+  font-size: 12px;
+}
 /* repeatable components css */
 .btn {
   width: 155px;
@@ -139,7 +142,8 @@ p {
 
   @media (max-width:660px) {
     background-position-x: center;
-    height: 70vh;
+    background-position-y: bottom;
+    /* height: 70vh; */
 
 
   }

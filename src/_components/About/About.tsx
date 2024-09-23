@@ -28,10 +28,10 @@ export default function About() {
             </div>
             <div className="">
               <div className="pt-section-title ">
-                <h1 className="md:text-3xl md:text-start text-md text-[#0000ff] font-bold capitalize w-full">
+                <h1 className="md:text-3xl md:text-start text-[24px] text-[#0000ff] font-bold capitalize w-full">
                   About us        </h1>
               </div>
-              <div className="pt-section-text md:text-start text-center lg:text-lg text-xs">
+              <div className="pt-section-text md:text-start text-center lg:text-lg text-[12px]">
                 Welcome to Prime Netbridge Solutions! We are dedicated to
                 empowering individuals of all ages with cutting-edge technology
                 education. Our mission is to foster innovation and creativity
