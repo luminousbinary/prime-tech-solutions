@@ -138,7 +138,6 @@ const Home = () => {
         </div>
       </div>
     </section>
-
     {/* <!-- tech courses ends here  --> */}
 
     {/* <!-- about us starts here  --> */}
