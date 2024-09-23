@@ -7,7 +7,7 @@ import CourseItems from '../../_components/courses/CourseItem.tsx'
 
 const Courses = () => {
   return (
-    <Box className="bg-[#E7E6F0] min-h-screen py-12  md:py-24 space-y-10">
+    <Box className="bg-[#E7E6F0] min-h-screen pb-12  pt-24 md:py-24 space-y-10">
         <CourseHeader />
         <div className='flex flex-col p-8 md:px-0 gap-9'>
         <CourseItems />

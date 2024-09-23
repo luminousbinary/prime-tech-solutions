@@ -2,7 +2,7 @@
 
 const CourseHeader = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center space-y-4">
+    <div className="w-full flex flex-col justify-center items-center space-y-4 my-4">
       <h1 className="capitalize font-semibold text-2xl text-[#2011CC] text-center w-full">
         our courses
       </h1>
@@ -15,5 +15,8 @@ const CourseHeader = () => {
     </div>
   );
 };
+
+// fresh water by akua emezi egwe
+// black sister street chika unigwe
 
 export default CourseHeader;

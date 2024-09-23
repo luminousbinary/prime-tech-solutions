@@ -36,7 +36,7 @@ export default function AboutUs() {
               networking
             </li>
           </ul>
-          <p>
+          <p className="text-[16px]">
             Join us on a journey to discover your potential, enhance your skills,
             and unlock exciting career opportunities in the tech world. At Prime
             Netbridge Solutions, we’re not just teaching technology – we’re

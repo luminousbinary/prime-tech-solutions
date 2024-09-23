@@ -17,10 +17,10 @@ export default function TechSolutions() {
                     </span>
                 </div>          
                 <div className="pt-row p-20 md:p-12 lg:flex-nowrap md:flex-wrap flex-wrap flex gap-8 md:gap-20 ">
+                <CourseImages  nom={"true"} />
+          <CourseImages  icn={"./icons/Frame (5).svg"} tcard={"Game Development"} texts={"The best experience elarning from expaerts from diverse location."} nom={"true"} />
+          <CourseImages  icn={"./icons/Frame (8).svg"} tcard={"Data Analysis"} texts={"Learn to traverse data in unique and graphycal ways, by experst with years of experience in the industry."} nom={"true"}/>
 
-   <CourseImages nom="true" />
-                    <CourseImages nom="true" />
-                    <CourseImages nom="true" />
                 </div>
             </div>
         </>
